@@ -95,19 +95,6 @@ function HomePage() {
       </Switch>
     </>
   )
-  // const [cardData, setCardData] = useState(null)
-
-  // useEffect(() => {
-  //   // const getCard = async () => {
-  //   //   const cards = await fetch('https://db.ygoprodeck.com/api/v6/cardinfo.php?level=4&attribute=fire')
-  //   //   setCardData(await cards.json())
-  //   // }
-  //   const cards = getCard
-  //   setCardData (cards.json())
-  //   // console.log(getCard)
-  // }, []);
-
-  // const getCardData = getCard('https://db.ygoprodeck.com/api/v6/cardinfo.php?level=4&attribute=fire')
 }
 
 export default HomePage
